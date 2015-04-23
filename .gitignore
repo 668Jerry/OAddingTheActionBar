@@ -1,0 +1,26 @@
+
+.gradle /local.properties /.idea/workspace.xml
+# Studio/Gradle
+*.iml .gradle/ /.idea/libraries .DS_Store
+#built application files
+*.apk *.ap_
+# Intellij IDEA (see https://intellij-support.jetbrains.com/entries/23393067) .idea/workspace.xml .idea/tasks.xml .idea/datasources.xml .$ VM/build
+*.dex
+# generated files Java class filesbin/
+*.classgen/
+# Eclipse/Android/Misc generated files.metadata/
+bin/local.properties *.DS_Store proguard/ gen/
+# Local configuration file (sdk path, etc)
+local.properties
+# Windows thumbnail db
+Thumbs.db
+# OSX files
+.DS_Store
+# Eclipse project files
+.classpath .project
+# Android Studio
+*.iml .idea
+#.idea/workspace.xml - remove
+# and delete .idea if it better suit your needs.
+.gradle
+build/
